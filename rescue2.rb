@@ -1,11 +1,4 @@
-# handle exceptions
-
-begin
-	puts 10 / 0
-rescue 
-	puts "You caused an error!"
-end
-
+# handling exception when retrieving the contents of a Web page fails
 
 data = ""
 begin
